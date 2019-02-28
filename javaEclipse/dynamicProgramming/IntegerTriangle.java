@@ -1,4 +1,4 @@
-package javaEclipse;
+package dynamicProgramming;
 import java.util.Arrays;
 import java.util.Scanner;
 

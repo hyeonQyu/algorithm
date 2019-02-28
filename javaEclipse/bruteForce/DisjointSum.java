@@ -1,4 +1,4 @@
-package javaEclipse;
+package bruteForce;
 import java.util.Scanner;
 
 public class DisjointSum {

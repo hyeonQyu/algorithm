@@ -1,4 +1,4 @@
-package javaEclipse;
+package dynamicProgramming;
 import java.util.Scanner;
 
 class House {

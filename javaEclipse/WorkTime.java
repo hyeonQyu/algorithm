@@ -1,4 +1,3 @@
-package javaEclipse;
 import java.util.Scanner;
 
 class Computer {
