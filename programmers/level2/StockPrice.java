@@ -9,7 +9,7 @@ public class StockPrice {
 			for(int j = i + 1; j < prices.length; j++) {
 				answer[i]++;
 				if(prices[i] > prices[j]) {
-					// °¡°İÀÌ ¶³¾îÁø ¼ø°£
+					// ê°€ê²©ì´ ë–¨ì–´ì§„ ì‹œì 
 					break;
 				}
 			}
