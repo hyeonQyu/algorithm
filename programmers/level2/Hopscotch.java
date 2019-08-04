@@ -10,6 +10,7 @@ public class Hopscotch {
 			for(int j = 0; j < 4; j++) {
 				for(int k = 0; k < 4; k++) {
 					if(j != k) {
+						// land[i][j]에서 갈 수 있는 최댓값 찾기(아래에서 위로)
 						if(max[j] < land[i + 1][k])
 							max[j] = land[i + 1][k];
 					}
