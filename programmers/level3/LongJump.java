@@ -14,7 +14,7 @@ public class LongJump {
 			}
 		}
 		
-		// 1의 개수, 2의 개수에 따라 combination의 수 만큼 셈
+		// 1의 개수, 2의 개수에 따라 combination의 수 만큼 count
 		long count = 1;
 		int time = 1;
 		while(n - 2 * time >= 0) {
