@@ -26,24 +26,5 @@ public class LongJump {
 		
 		return count % 1234567;
 	}
-	
-	static long getCombination(long n, long r) {
-		System.out.println("n: " + n);
-		System.out.println("r: " + r);
-		long nFac = getFactorial(n);
-		long nrFac = getFactorial(n-r);
-		long rFac = getFactorial(r);
-		System.out.println("nrFac: " + nrFac);
-		System.out.println("rFac: " + rFac);
-		
-		return nFac / (nrFac * rFac);
-	}
-	
-	static long getFactorial(long n) {
-		int fac = 1;
-		for(long i = 2; i <= n; i++)
-			fac *= i;
-		return fac;
-	}
 
 }
