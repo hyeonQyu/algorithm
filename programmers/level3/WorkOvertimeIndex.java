@@ -24,6 +24,7 @@ public class WorkOvertimeIndex {
 			int work = pq.poll();
 			sum += (work * work);
 		}
+		
 		return sum;
 	}
 
