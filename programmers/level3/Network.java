@@ -47,7 +47,7 @@ public class Network {
 			}
 		}
 		
-		// 탐색
+		// 깊이우선탐색
 		for(int i = 0; i < n; i++) {
 			// 현재 컴퓨터에 대해 아래 함수가 정상적으로 실행되면 네트워크 수 증가
 			if(isVisitComputer(coms[i]))
