@@ -1,6 +1,5 @@
 package kakao;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
@@ -39,8 +38,6 @@ public class MukbangLive {
 		int current = 0;
 		int width = foodCount;
 		Food food = null;
-		LinkedList<Integer> restList = new LinkedList<>();
-		boolean isNoFood = true;
 		
 		while(itr.hasNext()) {
 			// 현재 음식이 걸리는 시간
