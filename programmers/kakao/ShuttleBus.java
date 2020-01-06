@@ -63,6 +63,7 @@ public class ShuttleBus {
 		
 		Bus[] bus = new Bus[n];
 		Time time = new Time("09:00");
+		
 		for(int i = 0; i < n; i++) {
 			if(i != 0)
 				time.addTime(t);
