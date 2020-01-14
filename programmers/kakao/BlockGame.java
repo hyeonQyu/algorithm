@@ -112,13 +112,13 @@ public class BlockGame {
 		}
 		
 		int count = 0;
-		int delete = 1;
+		int delete = 1;	
 		while(delete != 0) {
-			delete = 0;
-			
+			delete = 0;			
 			Iterator<GameBlock> itr = blocks.iterator();
 			while(itr.hasNext()) {
 				GameBlock block = itr.next();
+				
 				// 블록을 지울 수 있으면 삭제
 				if(block.isNeverDeletable)
 					continue;
