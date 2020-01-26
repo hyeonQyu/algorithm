@@ -50,10 +50,4 @@ public class Camouflage {
 		return answer - 1;		// 모든 종류의 옷을 다 입지 않은 경우는 제외해야 하므로 -1
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String[][] clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
-		int a = solution(clothes);
-	}
-
 }
