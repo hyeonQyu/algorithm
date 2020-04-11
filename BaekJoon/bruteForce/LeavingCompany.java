@@ -3,10 +3,9 @@ package bruteForce;
 import java.io.*;
 
 public class LeavingCompany {
-	public static void main(String[] args) throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        
+    public static void main(String[] args) throws IOException{
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	    
         int n = Integer.parseInt(br.readLine());
         int[][] consulting = new int[n][2];
         for(int i = 0; i < n; i++){
@@ -37,9 +36,6 @@ public class LeavingCompany {
                 max = maxPay[i];
         }
         
-        bw.write(max + "\n");
-        
-        bw.flush();
-        bw.close();
+        System.out.println(max);
     }
 }
