@@ -19,8 +19,8 @@ public class ComplexNumbering {
                 map[i][j] = s.charAt(j) - '0';
             }
         }
-        check = new boolean[n][n];
         
+        check = new boolean[n][n];
         LinkedList<Integer> list = new LinkedList<>();
         
         for(int i = 0; i < n; i++){
